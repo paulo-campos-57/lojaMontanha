@@ -1,0 +1,12 @@
+.texto {
+    text-align: justify;
+}
+
+.links2 {
+    text-decoration: none;
+    color: black;
+}
+
+.links2:hover {
+    color: darkblue;
+}
