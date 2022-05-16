@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleContato.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Loja Montanha - Contate-nos</title>
+</head>
+<body>
+    <header>
+        <div class="headerCabecalho">
+            <div class="logo">
+                <hgroup>
+                    <h1><img src="img/icon.png" alt="logo site" width="7%"></h1>
+                    <h2>Loja Montanha</h2>
+                </hgroup>
+            </div>
+            <nav>
+                <div class="navbarCabecalho">
+                    <ul>
+                        <li>
+                            <a href="index.html" class="links">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="sobre.html" class="links">
+                                Sobre
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="links">
+                                Contato
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="titulo">
+            <h1>Fale Conosco!</h1>
+            <h4>Deixe a sua opinião!</h4>
+        </div>
+        <!-- Formulário para contato -->
+        <form action="#" method="get" class="formulario">
+            <fieldset>
+                <legend>Contate-nos</legend><br>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required><br><br>
+                <label for="mensagem">Digite sua mensagem:</label><br><br>
+                <textarea name="mensagem" id="mensagem" cols="90" rows="10"></textarea>
+                <input type="submit" class="enviar" value="Enviar" onclick="alert('Obrigado por seu comentário!')">
+            </fieldset>
+        </form>
+        <address>
+            <p>
+                <span>Endereço</span>
+                Av. Governador Carlos de Lima Cavalcanti, 155 - Boa Vista, Recife - PE
+            </p>
+            <p>
+                <span>Telefone</span>
+                000-000-000
+            </p>
+            <p>
+                <span>E-mail</span>
+                email@server.com
+            </p>
+        </address>
+    </div>
+    <footer class="footer">
+        <p>Loja Montanha</p>
+    </footer>
+</body>
+</html>
