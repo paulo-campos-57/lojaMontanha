@@ -1,0 +1,12 @@
+.logoB {
+    text-align: center;
+}
+
+.links2 {
+    text-decoration: none;
+    color: black;
+}
+
+.links2:hover {
+    color: darkblue;
+}
