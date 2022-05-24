@@ -1,0 +1,35 @@
+.formularioLogin {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 2%;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    padding-bottom: 3.5%;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.inputLogin {
+    width: 75%;
+    padding: 5.5px;
+    font: 4px;
+}
+
+.botaoLogin {
+    background-color: darkgreen;
+    border: none;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.botaoLogin:hover {
+    cursor: pointer;
+    background-color: green;
+}
