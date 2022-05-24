@@ -25,6 +25,14 @@ body {
     margin-left: 5%;
 }
 
+.tituloNav {
+    position: absolute;
+    top: 60px;
+    right: 820px;
+    width: 380px;
+    height: 200px;
+}
+
 .navbarCabecalho ul {
     display: flex;
     flex-flow: row nowrap;
@@ -45,7 +53,18 @@ body {
 }
 
 .links:hover {
+    cursor: pointer;
     color: cornflowerblue;
+}
+
+.linksB {
+    text-decoration: none;
+    color: black;
+}
+
+.linksB:hover {
+    cursor: pointer;
+    color: blue;
 }
 
 .main {
@@ -53,7 +72,7 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     width: 70%;
-    min-height: 1000px;
+    min-height: 450px;
     padding: 30px 30px;
 }
 
