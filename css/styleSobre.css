@@ -1,3 +1,11 @@
+.tituloNavB {
+    position: absolute;
+    top: 60px;
+    right: 800px;
+    width: 380px;
+    height: 200px;
+}
+
 .texto {
     text-align: justify;
 }
