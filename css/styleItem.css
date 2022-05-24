@@ -1,0 +1,98 @@
+.initial {
+    text-align: justify;
+}
+
+.imgCompra {
+    height: 350px;
+    width: 450px;
+}
+
+.descricao {
+    position: absolute;
+    top: 280px;
+    right: 250px;
+    width: 380px;
+    height: 200px;
+}
+
+.precoFinal {
+    font-size: xx-large;
+}
+
+.botao {
+    position: absolute;
+    top: 620px;
+    right: 200px;
+    width: 380px;
+    height: 200px;
+}
+
+.botaoCompra {
+    background-color: darkgreen;
+    border: none;
+    padding: 15px;
+    width: 70%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.botaoCompra:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.outrosItens {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.outrosItens ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.outrosItens ul li {
+    margin: 0 50px;
+    padding: 7px 4px;
+    font-size: 1em;
+    list-style: none;
+}
+
+.outrosItens a {
+    text-decoration: none;
+    color: black;
+}
+
+.outrosItens a:hover {
+    cursor: pointer;
+}
+
+.imgOutItem {
+    height: 100px;
+    width: 100px;
+}
+
+.calcularFrete {
+    position: absolute;
+    top: 720px;
+    right: 280px;
+    width: 380px;
+    height: 200px;
+}
+
+.calculaCep {
+    background-color: darkgreen;
+    border: none;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    color: white;
+}
+
+.calculaCep:hover {
+    cursor: pointer;
+    background-color: green;
+}
