@@ -8,6 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleIndex.css">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -22,26 +23,23 @@
         <div class="headerCabecalho">
             <div class="logo">
                 <hgroup>
-                    <h1><img src="img/icon.png" alt="logo site" width="7%"></h1>
-                    <h2>Loja Montanha</h2>
+                    <h1><img src="img/icon.png" alt="logo site" width="7%"></h1> 
+                    <aside class="tituloNav">
+                        <h2>Loja Montanha</h2>
+                    </aside>
                 </hgroup>
             </div>
             <nav>
                 <div class="navbarCabecalho">
                     <ul>
                         <li>
-                            <a href="" class="links">
-                                Home
+                            <a href="cadastro.html" class="links">
+                                Cadastro
                             </a>
                         </li>
                         <li>
-                            <a href="sobre.html" class="links">
+                            <a href="sobreA.html" class="links">
                                 Sobre
-                            </a>
-                        </li>
-                        <li>
-                            <a href="contato.html" class="links">
-                                Contato
                             </a>
                         </li>
                     </ul>
@@ -50,9 +48,19 @@
         </div>
     </header>
     <div class="main">
-        <div class="titulo">
-            <h1>Loja Montanha</h1>
-            <h4>Nosso catálogo</h4>
+        <div class="formularioLogin">
+            <form>
+                <h1>Bem vindo!</h1>
+                <p>Preencha com suas informações para entrar na Loja Montanha</p><br><br>
+                <input type="email" class="inputLogin" placeholder="e-mail"><br><br>
+                <input type="password" class="inputLogin" placeholder="senha">
+            </form>
+            <br>
+            <a href="catalogo.html" class="links">
+                <button class="botaoLogin">
+                    Entrar
+                </button>
+            </a>
         </div>
     </div>
     <footer class="footer">
