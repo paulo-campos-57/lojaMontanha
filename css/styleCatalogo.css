@@ -1,0 +1,35 @@
+.navbarItens {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbarItens ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+}
+
+.navbarItens ul li {
+    margin: 0 5px;
+    padding: 2px 4px;
+    font-size: 1em;
+    list-style: none;
+}
+
+.navbarItens a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarItens a:hover {
+    cursor: pointer;
+}
+
+.imgItem {
+    height: 300px;
+    width: 400px;
+}
+
+.preco {
+    text-align: end;
+}
